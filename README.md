@@ -103,8 +103,8 @@ means stop and disappear the progress view
 
 ```java
 
-		progress = (ProgressView) findViewById(R.id.progress);
-    	/*   xxxxxxx   */
-		progress3.stop()；
+	progress = (ProgressView) findViewById(R.id.progress);
+	/*   xxxxxxx   */
+	progress3.stop()；
 
 ```
