@@ -4,32 +4,26 @@ A very simple progress view, you can custom the circular ring's **colors** and t
 
 ### Demo ###
 
-<iframe height=355.6 width=200 src="https://github.com/Runly/CircularProgressView/blob/master/demo/demo.mp4" frameborder=0 allowfullscreen></iframe>
+<img src="https://github.com/Runly/CircularProgressView/blob/master/demo/demo.gif" width = "200" height = "355.6" align=center />
 
 ### Usage ###
 
 - Add it in your **root** `build.gradle` at the end of repositories:
-
-{
-
-	allprojects {
-		repositories {
-			...
-			maven { url "https://jitpack.io" }
-		}
-	}
-
+<pre><code>
+allprojects {
+    repositories {
+        ...
+        maven { url "https://jitpack.io" }
+    }
 }
+</code></pre>
 
 - Add it in your **app** `build.gradle` at the end of dependencies:
-
-{
-
-	dependencies {
-        compile 'com.github.Runly:CircularProgressView:v2.0.0'
-	}
-
+<pre><code>
+dependencies {
+    compile 'com.github.Runly:CircularProgressView:v2.0.0'
 }
+</code></pre>
 
 ##### XML #####
 
@@ -75,7 +69,9 @@ A very simple progress view, you can custom the circular ring's **colors** and t
 
 
 ###### Three methods ######
-- **start()** means start and Display the progress view
+- start()
+
+means start and Display the progress view
 			  
 	```java
 
@@ -87,7 +83,7 @@ A very simple progress view, you can custom the circular ring's **colors** and t
 
 In default casa, if you initialize a ProgressView, it will auto start, you needn't call `start()`. 
 
-- **setAutoStart(boolean isAutoStart)**
+- setAutoStart(boolean isAutoStart)
 
 If you don't want it auto start, you can call this method.
 
@@ -99,7 +95,9 @@ If you don't want it auto start, you can call this method.
 
 ```
 
-- **stop()** means stop and disappear the progress view
+- stop()
+
+means stop and disappear the progress view
 
 ```java
 

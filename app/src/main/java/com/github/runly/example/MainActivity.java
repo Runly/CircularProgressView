@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         progress3 = (ProgressView) findViewById(R.id.progress3);
         progress3.setStrokeSizeDp(this, 5);
         progress3.setStrokeColors(new int[] {Color.BLUE});
+        progress3.setAutoStart(false);
 
         progress4 = (ProgressView) findViewById(R.id.progress4);
         progress4.setStrokeSizePx(90);
