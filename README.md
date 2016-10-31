@@ -1,6 +1,6 @@
 ## CircularProgressView ##
 
-A very simple progress view, you can custom the circular ring's **colors** and the **size**.
+A very simple progress view, `ProgressView` extends `View`, you can custom the circular ring's **colors** and **size**, and use the methods in `View`.
 
 ### Demo ###
 
