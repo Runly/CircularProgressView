@@ -12,19 +12,19 @@ A very simple progress view, you can custom the circular ring's **colors** and t
 
 - Add it in your **root** `build.gradle` at the end of repositories:
 <pre><code>
-allprojects {
-    repositories {
-        ...
-        maven { url "https://jitpack.io" }
-    }
-}
+	allprojects {
+    		repositories {
+        		...
+        		maven { url "https://jitpack.io" }
+    		}
+	}
 </code></pre>
 
 - Add it in your **app** `build.gradle` at the end of dependencies:
 <pre><code>
-dependencies {
-    compile 'com.github.Runly:CircularProgressView:v2.0.0'
-}
+	dependencies {
+    		compile 'com.github.Runly:CircularProgressView:v2.0.0'
+	}
 </code></pre>
 
 ##### XML #####
