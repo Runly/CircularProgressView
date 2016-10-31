@@ -6,6 +6,8 @@ A very simple progress view, you can custom the circular ring's **colors** and t
 
 <img src="https://github.com/Runly/CircularProgressView/blob/master/demo/demo.gif" width = "300" height = "533.4" align=center />
 
+- This gif's speed is a little faster than really.
+
 ### Usage ###
 
 - Add it in your **root** `build.gradle` at the end of repositories:
