@@ -79,7 +79,7 @@ means start and Display the progress view
 
 	progress = (ProgressView) findViewById(R.id.progress);
 	/*   xxxxxxx   */
-	progress3.start()；
+	progress.start()；
 
 ```
 
@@ -105,6 +105,6 @@ means stop and disappear the progress view
 
 	progress = (ProgressView) findViewById(R.id.progress);
 	/*   xxxxxxx   */
-	progress3.stop()；
+	progress.stop()；
 
 ```
