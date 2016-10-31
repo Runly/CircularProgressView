@@ -4,7 +4,7 @@ A very simple progress view, you can custom the circular ring's **colors** and t
 
 ### Demo ###
 
-<img src="https://github.com/Runly/CircularProgressView/blob/master/demo/demo.gif" width = "200" height = "355.6" align=center />
+<img src="https://github.com/Runly/CircularProgressView/blob/master/demo/demo.gif" width = "300" height = "533.4" align=center />
 
 ### Usage ###
 
@@ -73,13 +73,13 @@ dependencies {
 
 means start and Display the progress view
 			  
-	```java
+```java
 
-		progress = (ProgressView) findViewById(R.id.progress);
-    	/*   xxxxxxx   */
-		progress3.start()；
+	progress = (ProgressView) findViewById(R.id.progress);
+	/*   xxxxxxx   */
+	progress3.start()；
 
-	```
+```
 
 In default casa, if you initialize a ProgressView, it will auto start, you needn't call `start()`. 
 
