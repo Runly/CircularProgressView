@@ -1,7 +1,7 @@
 <resources>
 
     <style name="CircularProgress">
-        <item name="cpd_padding">0dp</item>
+        <item name="cpd_padding">1dp</item>
         <item name="cpd_initialAngle">0</item>
         <item name="cpd_maxSweepAngle">270</item>
         <item name="cpd_minSweepAngle">1</item>
