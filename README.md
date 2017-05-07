@@ -12,23 +12,21 @@ A very simple progress view, `ProgressView` extends `View`, you can custom the c
 
 - Add it in your **root** `build.gradle` at the end of repositories:
 <pre><code>
-
     allprojects {
         repositories {
             ...
             maven { url "https://jitpack.io" }
         }
     }
-
+    
 </code></pre>
 
 - Add it in your **app** `build.gradle` at the end of dependencies:
 <pre><code>
-
     dependencies {
         compile 'com.github.Runly:CircularProgressView:v2.0.0'
     }
-
+    
 </code></pre>
 
 ##### XML #####
@@ -57,7 +55,7 @@ A very simple progress view, `ProgressView` extends `View`, you can custom the c
     progress2.setStrokeSizePx(15);
     //set the colors
     progress2.setStrokeColors(new int[] {Color.BLUE, Color.RED, Color.GREEN, Color.YELLOW});
-
+    
 ```
 
 ##### You can also use ProgressView without XML #####
@@ -67,7 +65,7 @@ A very simple progress view, `ProgressView` extends `View`, you can custom the c
     ProgressView progressView = new ProgressView(mContext, null);
     progressView.setStrokeSizeDp(context, 20);
     progressView.setStrokeColors(new int[] {Color.WHITE});
-
+    
 ```
 
 
