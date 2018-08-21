@@ -6,7 +6,7 @@ A very simple progress view, `ProgressView` extends `View`, you can custom the c
 
 <img src="https://github.com/Runly/CircularProgressView/blob/master/demo/demo.gif" width = "300" height = "533.4" align=center />
 
-- This gif's speed is a little faster than really.
+- This gif's speed is little faster than really.
 
 ### Usage ###
 
